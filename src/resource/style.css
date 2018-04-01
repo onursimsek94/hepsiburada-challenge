@@ -1,0 +1,223 @@
+html body {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -ms-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
+.header {
+  border-bottom: 1px solid gray;
+  width: 100%;
+}
+
+.header-logo {
+  width: 250px;
+  height: 85px;
+}
+
+.header-text {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+.submit-link-container {
+  cursor: pointer;
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 5px;
+  background: rgb(247, 247, 247);
+  width: 400px;
+  height: 110px;
+  margin-top: 30px;
+}
+
+.submit-link-container .plus {
+  background: rgb(236, 236, 236);
+  border: 1px solid rgb(151, 151, 151);
+  border-radius: 5px;
+  font-size: 60px;
+  font-weight: 600;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+.submit-link-container .text {
+  font-size: 30px;
+  margin-top: -72px;
+  margin-left: 150px;
+}
+
+.hr-divider {
+  width: 450px;
+  background-color: rgb(236, 236, 236);
+  height: 4px;
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+.order-by-container select {
+  width: 190px;
+  margin-left: -200px;
+  margin-bottom: 30px;
+}
+
+/* TODO: Duruma gore silinecek */
+.link-list-items-container {
+  height: 550px;
+}
+
+.link-list-item-container {
+  cursor: pointer;
+  width: 400px;
+  height: 110px;
+  margin-bottom: 10px;
+}
+
+.link-list-item-container:hover {
+  border: 1px solid rgb(238, 238, 238);
+  border-radius: 5px;
+  background: rgb(247, 247, 247);
+}
+
+.link-list-item-container:hover .delete-button {
+  opacity: 1;
+}
+
+.link-list-item-container .delete-button {
+  position: absolute;
+  margin-left: 385px;
+  margin-top: -10px;
+  opacity: 0;
+}
+
+.link-list-item-container .delete-button i {
+  font-size: 30px;
+  color: rgb(228, 10, 10);
+}
+
+.link-list-item-container .points-container {
+  background: rgb(236, 236, 236);
+  border: 1px solid rgb(151, 151, 151);
+  border-radius: 5px;
+  padding: 10px;
+  text-align: center;
+  width: 100px;
+  height: 100px;
+  margin-top: 3px;
+  margin-left: 5px;
+}
+
+.link-list-item-container .points-container .points {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.link-list-item-container .points-container .text {
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+.link-list-item-container .link-text-container {
+  margin-top: -100px;
+  margin-left: 120px;
+}
+
+.link-list-item-container .link-text-container .text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.link-list-item-container .link-text-container .link {
+  color: rgb(127, 127, 127);
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.link-list-item-container .vote-button-container {
+    margin-top: 15px;
+    margin-left: 120px;
+    font-size: 13px;
+    color: rgb(127, 127, 127);
+}
+
+.return-to-list {
+  cursor: pointer;
+  margin-top: 40px;
+  margin-left: -290px;
+  margin-bottom: 50px;
+}
+
+.return-to-list i {
+  margin-top: 3px;
+}
+
+.return-to-list div {
+  font-weight: bold;
+  float: right;
+}
+
+.add-new-link-text {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: -210px;
+  margin-bottom: 50px;
+}
+
+.add-new-link-container input {
+  width: 400px;
+  height: 50px;
+  border-color: rgb(151, 151, 151);
+}
+
+.add-new-link-container button {
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 50px;
+  width: 140px;
+  float: right;
+}
+
+.modal {
+  min-width: 400px,
+}
+
+.modal-text-container {
+  text-align: center;
+}
+
+.modal-text-container div:nth-child(2) {
+  font-weight: bolder;
+}
+
+.modal-button-container {
+  margin-top: 20px;
+}
+
+.modal-button-container button {
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.modal-button-container button:nth-child(1) {
+  width: 110px;
+  float: left;
+  margin-left: 50px;
+}
+
+.modal-button-container button:nth-child(2) {
+  width: 110px;
+  float: right;
+  margin-right: 50px;
+}
